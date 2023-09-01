@@ -1,0 +1,75 @@
+.coffee-item {
+  border: 2px solid #333;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.coffee-item:hover {
+  background-color: #f0f0f0;
+}
+
+.coffee-title {
+  font-weight: bold;
+}
+
+/* Style for the coffee variants */
+.coffee-options {
+  display: flex;
+  justify-content: center;
+}
+
+.coffee-options button {
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #007acc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.coffee-options button:hover {
+  background-color: #005b9f;
+}
+
+/* Style for the cart and total */
+.cart {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid #333;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.cart button {
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.cart button:hover {
+  background-color: #c9302c;
+}
+
+.total {
+  margin-top: 10px;
+  text-align: right;
+}
+
+/* Centering the title */
+h1 {
+  text-align: center;
+}
